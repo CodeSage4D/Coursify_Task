@@ -1,0 +1,39 @@
+D:\Projects\Coursify\
+│
+├── .vscode
+│   └── (VSCode configuration files)
+│
+├── css
+│   └── styles.css
+│   └── signup-styles.css
+│
+├── images
+│   └── (Image files)
+│
+├── js
+│   └── script.js
+│   └── signup-script.js
+│
+├── recruitment_startup_project
+│   └── manage.py
+│   └── recruitment_startup_project
+│       └── __init__.py
+│       └── asgi.py
+│       └── settings.py
+│       └── urls.py
+│       └── wsgi.py
+│
+├── accounts
+│   └── __init__.py
+│   └── admin.py
+│   └── apps.py
+│   └── models.py
+│   └── tests.py
+│   └── urls.py
+│   └── views.py
+│   └── templates
+│       └── index.html
+│       └── features.html
+│       └── signup.html
+│
+└── db.sqlite3

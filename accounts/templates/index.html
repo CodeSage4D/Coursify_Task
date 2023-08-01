@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Startup - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Add the Font Awesome CSS link here -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-xWdA05uOmHT6KcnEnnchAF5eFsQgn6QRO0YwZ3JiB2RIS7TavF1xlWsMnGwWmGnx7eLIYinjtn8zPvg1zRYEw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+        <style>
+            /* Add styles for Material Icons */
+            .material-icons {
+                font-family: 'Material Icons';
+                font-weight: normal;
+                font-style: normal;
+                font-size: 24px;
+                line-height: 1;
+                letter-spacing: normal;
+                text-transform: none;
+                display: inline-block;
+                white-space: nowrap;
+                word-wrap: normal;
+                direction: ltr;
+                -webkit-font-smoothing: antialiased;
+                text-rendering: optimizeLegibility;
+                -moz-osx-font-smoothing: grayscale;
+                font-feature-settings: 'liga';
+            }
+        </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li class="search-job">
+                    <form action="/search" method="GET">
+                        <input type="text" name="q" placeholder="Search for jobs">
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Add the "Sign Up" link to the signup page -->
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Hire the Best Talent for Your Tech Team!</h1>
+        <p>Find skilled software engineers, product managers, data scientists, and more.</p>
+        <a href="#employer-section">Employers</a>
+        <a href="#jobseeker-section">Job Seekers</a>
+    </section>
+
+    <!-- Job Categories Section -->
+    <section id="jobs">
+        <h2>Job Categories</h2>
+        <div class="category">
+            <img src="images/software-engineer-icon.png" alt="Software Engineer">
+            <h3>Software Engineers</h3>
+            <p>Explore job openings for software engineers with various skill sets.</p>
+        </div>
+        <div class="category">
+            <img src="images/product-manager-icon.png" alt="Product Manager">
+            <h3>Product Managers</h3>
+            <p>Discover exciting opportunities for product management professionals.</p>
+        </div>
+        <div class="category">
+            <img src="images/data-scientist-icon.png" alt="Data Scientist">
+            <h3>Data Scientists</h3>
+            <p>Find data science roles that match your expertise and interests.</p>
+        </div>
+        <!-- Add more job categories as needed -->
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <!-- Add visual representation of the process here -->
+        <p>Explain the process of using the platform for both employers and job seekers.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <img src="images/testimonial-image-1.jpg" alt="Client 1">
+            <p>"I found the perfect candidate for our software development team through this platform.
+                Highly recommended!"</p>
+            <span>- John Doe, XYZ Tech Solutions</span>
+        </div>
+        <div class="testimonial">
+            <img src="images/testimonial-image-2.jpg" alt="Client 2">
+            <p>"As a job seeker, I landed my dream job thanks to the opportunities listed here.
+                Thank you!"</p>
+            <span>- Jane Smith</span>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am Karan Mishra, a final-year B.Tech CSE student passionate about software development and data science. I am
+        currently pursuing my engineering degree at [Your University/Institute Name].</p>
+    <p>Connect with me on GitHub and LinkedIn to explore my projects and professional experiences:</p>
+    <ul>
+        <li>
+            <a href="https://github.com/CodeSage4D" target="_blank"><i class="material-icons">code</i> GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/itsgkaranmishra4/" target="_blank"><i class="material-icons">account_circle</i> LinkedIn</a>
+        </li>
+    </ul>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries or collaboration opportunities.</p>
+        <form action="/submit_contact_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p>Email: karan.mishra2020@sait.ac.in</p>
+    </section>
+
+    <!-- Featured Jobs -->
+    <h2>Featured Jobs</h2>
+    <ul class="featured-jobs">
+        <li>
+            <h2>Software Engineer</h2>
+            <p>We're looking for a talented software engineer to join our team.</p>
+            <a href="#">Learn more</a>
+        </li>
+        <li>
+            <h2>Product Manager</h2>
+            <p>We're looking for a product manager to help us launch our new product.</p>
+            <a href="#">Learn more</a>
+        </li>
+        <li>
+            <h2>Data Scientist</h2>
+            <p>We're looking for a data scientist to help us analyze our data and make better decisions.</p>
+            <a href="#">Learn more</a>
+        </li>
+    </ul>
+
+    <!-- Latest Blog Posts -->
+    <div class="blog-section">
+        <h2>Latest Blog Posts</h2>
+        <ul>
+            <li>
+                <a href="#">How to Hire the Best Talent</a>
+            </li>
+            <li>
+                <a href="#">The Future of Recruitment</a>
+            </li>
+            <li>
+                <a href="#">10 Tips for Writing a Great Job Description</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
